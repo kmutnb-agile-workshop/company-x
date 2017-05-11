@@ -5,7 +5,7 @@ final class DbConnection {
 
   public static function getConnection () {
     $driver = 'mysqli';
-    $server = '54.169.90.27';
+    $server = '54.169.33.80';
     $user = 'root';
     $password = '1qaz2wsx';
     $database = 'agile-php';
