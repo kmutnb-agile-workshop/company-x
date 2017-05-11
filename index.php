@@ -13,7 +13,7 @@ $data = new Dwoo\Data();
 $data->assign('pageTitle', 'PHP Starter for Agile Training');
 $data->assign('pageContent', 'Welcome to agile training, this is just example php project');
 
-$email = new Email('johndoe@sg.com');
+$email = new Email('johndoe@company-4.com');
 $data->assign('email', $email->getEmail());
 
 $customers = array(

@@ -5,9 +5,9 @@ final class DbConnection {
 
   public static function getConnection () {
     $driver = 'mysqli';
-    $server = 'localhost';
+    $server = '54.169.90.27';
     $user = 'root';
-    $password = 'Zaq12wsx';
+    $password = '1qaz2wsx';
     $database = 'agile-php';
 
     $db = ADONewConnection($driver);
