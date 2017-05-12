@@ -27,3 +27,4 @@ $data->assign('customers', $customers);
 echo $core->get('index.tpl', $data);
 
 // add test statement 1.2
+// test statement 1.1
