@@ -25,3 +25,5 @@ $data->assign('customers', $customers);
 
 // render template
 echo $core->get('index.tpl', $data);
+
+// test statement 1.3
