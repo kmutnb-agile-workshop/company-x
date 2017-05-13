@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-
+require 'src/Email.php';
 /**
  * @covers Email
  */
