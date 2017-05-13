@@ -22,3 +22,5 @@ if (!empty($_SESSION['insert_customer_id'])) {
 // render template
 echo $core->get('list.tpl', $data);
 
+// test list
+
