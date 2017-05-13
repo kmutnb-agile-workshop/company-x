@@ -27,8 +27,11 @@ $data->assign('customers', $customers);
 echo $core->get('index.tpl', $data);
 
 
+
 // test statement 1.4
+
 
 // beer
 // xxxx
+
 
