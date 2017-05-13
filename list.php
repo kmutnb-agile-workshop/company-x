@@ -23,3 +23,5 @@ if (!empty($_SESSION['insert_customer_id'])) {
 echo $core->get('list.tpl', $data);
 // test
 
+// test list
+
