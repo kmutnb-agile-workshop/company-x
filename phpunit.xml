@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit colors="true" bootstrap="vendor/autoload.php">
   <testsuites>
-    <testsuite name="EmailTest">
-      <file>./src/Email.php</file>
-      <file>./tests/EmailTest.php</file>
-    </testsuite>
-		<testsuite name="SimpleFailedTest">
-      <file>./tests/SimpleTest.php</file>
+    <testsuite name="CustomerTest">
+      <file>./src/Customer.php</file>
+      <file>./tests/CustomerTest.php</file>
     </testsuite>
   </testsuites>
 </phpunit>

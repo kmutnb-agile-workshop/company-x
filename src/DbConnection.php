@@ -8,7 +8,9 @@ final class DbConnection {
     
     // echo "server name is: ".$_SERVER['SERVER_NAME'];
     $config = $production;
-    if ($_SERVER['SERVER_NAME'] == 'localhost') {
+    if (empty($_SERVER['SERVER_NAME'])) {
+      $config = $development;
+    } else if ($_SERVER['SERVER_NAME'] == 'localhost') {
       $config = $development;
     }
 

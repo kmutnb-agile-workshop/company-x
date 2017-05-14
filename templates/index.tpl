@@ -11,7 +11,7 @@
     <h2>Binding value from class</h2>
     <p>email:{$email}</p>
 
-    <h2>Binding array using loop</h2>
+    <h2>XXX Binding array using loop</h2>
     <ul>
     {loop $customers}
       <li>{$id} - {$name}</li>
